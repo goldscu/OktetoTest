@@ -1,6 +1,2 @@
 job-id: centos-base
 test-skip: true
-services:
-    build: .
-    ports:
-      - 80:80
