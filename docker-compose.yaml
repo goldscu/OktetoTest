@@ -5,3 +5,4 @@ services:
       - 22:22
     stdin_open: true
     tty: true 
+    command: ["pwd"]
