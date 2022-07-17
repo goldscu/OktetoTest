@@ -6,5 +6,4 @@ services:
     stdin_open: true
     tty: true 
     command: ["echo '<h1>Hello, Docker!</h1>' > /usr/share/nginx/html/index.html"]
-    
-test-skip: true
+    test-skip: true
