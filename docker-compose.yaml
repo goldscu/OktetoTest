@@ -1,5 +1,5 @@
 services:
-  mooncake:
+  hz_test:
     build: .
     shm_size: 2.6gb
     ports:
