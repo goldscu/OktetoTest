@@ -1,5 +1,6 @@
+job-id: centos-base
+test-skip: true
 services:
-  areyouok:
     build: .
     ports:
       - 80:80
