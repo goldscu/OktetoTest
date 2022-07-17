@@ -1,2 +1,6 @@
-job-id: centos-base
-test-skip: true
+version:'3.0'
+services:
+  test:
+    image:centos
+  ports:
+    - 22:22
