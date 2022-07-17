@@ -1,5 +1,5 @@
 services:
   test:
-    image:centos
+    image: debian
   ports:
     - 22:22
