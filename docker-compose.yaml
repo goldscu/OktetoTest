@@ -1,7 +1,6 @@
 services:
   hz_test:
-    build: .
-    shm_size: 2.6gb
+    image: circleci/sshd
     ports:
       - "80:80"
       - "22:22"
